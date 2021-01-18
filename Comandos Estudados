@@ -1,50 +1,69 @@
-Comandos SQL Server
+COMANDOS SQL
 
-SELECT
+---------------------------------
+Aplicações em:
+- SQL SERVER
+- AZURE, SQL E SYNAPSE ANALYTICS
+- PARALLEL DATA WAREHOUSE
+---------------------------------
 
-DISTINCT
+## SELECT ##
 
-WHERE
+## DISTINCT ##
 
-COUNT
+## WHERE ##
 
-TOP
+## COUNT ## 
+Essa função retorna o número de itens encontrados em um grupo. COUNT funciona como a função COUNT_BIG. 
+Essas funções são diferentes apenas nos tipos de dados de seus valores de retorno. COUNT sempre retorna 
+um valor do tipo de dados int. COUNT_BIG sempre retorna um valor do tipo de dados bigint.
 
-ORDER BY
+https://docs.microsoft.com/pt-br/sql/t-sql/functions/count-transact-sql?view=sql-server-ver15
 
-BETWEEN
+## TOP ##
 
-IN
+## ORDER BY ##
 
-LIKE
+## BETWEEN ## 
 
-MIN
+## IN ##
 
-MAX
+## LIKE ##
 
-SUM
+## MIN ##
 
-AVG
+## MAX ##
 
-GROUP BY
+## SUM ##
 
-HAVING
+## AVG ##
+Essa função retorna a média dos valores em um grupo. Ela ignora valores nulos.
 
-INNER JOIN
+https://docs.microsoft.com/pt-br/sql/t-sql/functions/avg-transact-sql?view=sql-server-ver15
 
-OUTER JOIN 
+## GROUP BY ##
+Uma cláusula da instrução SELECT que divide o resultado da consulta em grupos de linhas, 
+normalmente, com a finalidade de executar uma ou mais agregações em cada grupo. A instrução SELECT retorna uma linha por grupo.
 
-UNION
+https://docs.microsoft.com/pt-br/sql/t-sql/queries/select-group-by-transact-sql?view=sql-server-ver15
 
-DATEPART
+## HAVING ##
 
-SELF JOIN
+## INNER JOIN ##
 
-INSERT INTO
+## OUTER JOIN ##
 
-CREATE TABLE
+## UNION ## 
 
-DELETE TABLE
+## DATEPART ##
+
+## SELF JOIN ##
+
+## INSERT INTO ##
+ 
+## CREATE TABLE ##
+
+## DELETE TABLE ##
 
 ## ALTER TABLE ##
 
@@ -79,6 +98,10 @@ que é executada quando a Boolean_expression é avaliada como FALSE ou NULL.
 https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/else-if-else-transact-sql?view=sql-server-ver15
 
 ## BEGIN ## 
+Abrange uma série de instruções Transact-SQL para que um grupo de instruções Transact-SQL possa ser executado. BEGIN e END são palavras-chave 
+da linguagem de controle de fluxo.
+
+https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/begin-end-transact-sql?view=sql-server-ver15
 https://pt.stackoverflow.com/questions/203669/o-que-s%C3%A3o-as-transa%C3%A7%C3%B5es-begin-commit-e-rollback
 
 
