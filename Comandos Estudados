@@ -1,0 +1,86 @@
+Comandos SQL Server
+
+SELECT
+
+DISTINCT
+
+WHERE
+
+COUNT
+
+TOP
+
+ORDER BY
+
+BETWEEN
+
+IN
+
+LIKE
+
+MIN
+
+MAX
+
+SUM
+
+AVG
+
+GROUP BY
+
+HAVING
+
+INNER JOIN
+
+OUTER JOIN 
+
+UNION
+
+DATEPART
+
+SELF JOIN
+
+INSERT INTO
+
+CREATE TABLE
+
+DELETE TABLE
+
+## ALTER TABLE ##
+
+## REPLACE ##
+Substitui todas as ocorrências de um valor da cadeia de caracteres especificado por outro valor de cadeia de caracteres.
+
+https://docs.microsoft.com/pt-br/sql/t-sql/functions/replace-transact-sql?view=sql-server-ver15
+
+## ROLLBACK ##
+Reverte uma transação explícita ou implícita ao começo da transação ou a um ponto de salvamento dentro da transação. 
+Você pode usar ROLLBACK TRANSACTION para apagar todas as modificações de dados feitas desde o começo da transação ou 
+até um ponto de salvamento. Ela também libera recursos mantidos pela transação. Isso não inclui alterações feitas em 
+variáveis locais ou variáveis de tabela. Elas não são apagadas por essa instrução.
+
+https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver15
+
+## CASE ## 
+Avalia uma lista de condições e retorna uma das várias expressões de resultado possíveis.
+
+https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/case-transact-sql?view=sql-server-ver15
+
+## CHAR ## 
+Essa função converte um código ASCII int em um valor de caractere.
+
+https://docs.microsoft.com/pt-br/sql/t-sql/functions/char-transact-sql?view=sql-server-ver15
+
+## ELSE ## 
+Impõe condições na execução de uma instrução Transact-SQL. A instrução Transact-SQL (sql_statement) após a Boolean_expression 
+será executada se a Boolean_expression for avaliada como TRUE. A palavra-chave opcional ELSE é uma instrução Transact-SQL alternativa 
+que é executada quando a Boolean_expression é avaliada como FALSE ou NULL.
+
+https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/else-if-else-transact-sql?view=sql-server-ver15
+
+## BEGIN ## 
+https://pt.stackoverflow.com/questions/203669/o-que-s%C3%A3o-as-transa%C3%A7%C3%B5es-begin-commit-e-rollback
+
+
+## COMMIT ## 
+https://pt.stackoverflow.com/questions/203669/o-que-s%C3%A3o-as-transa%C3%A7%C3%B5es-begin-commit-e-rollback
